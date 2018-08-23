@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 //Specify a port
-var port = process.env.port || 8080;
+var port = process.env.port || 8081;
 
 //Serve up files in public folder
 app.use('/', express.static(__dirname + '/public'));
